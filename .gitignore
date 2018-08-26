@@ -1,0 +1,5 @@
+// Ignore db folder, ask for it if needed
+db/
+
+// Ignore node_modules in strapi
+/src/node_modules

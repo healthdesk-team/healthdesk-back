@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "settings": {
+        "client": "mongo",
+        "host": "db",
+        "port": "27017",
+        "database": "healthdesk",
+        "username": "",
+        "password": ""
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": false
+      },
+      "connector": "strapi-hook-mongoose"
+    }
+  }
+}
